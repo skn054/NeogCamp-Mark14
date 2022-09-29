@@ -1,5 +1,5 @@
 ## neoG-markFouteen- Stock Profit and Loss Calculator
-Created application where taking the 3 input from user i.e intial price of stocks ,no. of stock bought, current price of stocks.As per user input calculating loss/profit and loss percentage/ profit percentage.
+Created application which takes 3 inputs from user i.e intial price of stocks ,no. of stock bought, current price of stocks. As per user input calculate loss/profit and loss percentage/ profit percentage.
 
 ## Technology Used:
 * HTML
@@ -7,4 +7,4 @@ Created application where taking the 3 input from user i.e intial price of stock
 * JavaScript
 
 ## Live Project
-[Profit&LossCalculator](https://stockprofitandlosscalculator-mark14.netlify.app/)
+[Profit&LossCalculator](https://profitandlossapp.netlify.app/)
