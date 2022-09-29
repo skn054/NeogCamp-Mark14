@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap');
+
+:root {
+    --primary-color: blueviolet;
+    --button-color: #A084CA;
+    --background-light: #EEF2E6;
+    --input-text-color: #3D550C;
+    --error-color: red;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Zilla Slab', serif;
+    background-color: var(--background-light);
+}
+
+button,
+input {
+    font-family: inherit;
+    font-size: medium;
+}
+
+
+.text {
+    text-align: center;
+    color: var(--error-color);
+}
+
+#output {
+    text-align: center;
+    font-size: x-large   ;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    /* margin-bottom: 10px; */
+    text-align: center;
+    color: var(--background-light);
+    background-color: var(--primary-color);
+    padding: 15px;
+    border-top: 50px;
+    height: 54px;
+}
+
+.main {
+
+    background-color: var(--background-light);
+    border-radius: 25px;
+    height: 405px;
+
+}
+
+label {
+    /* margin: 20px; */
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+input {
+    border: 3px black;
+    display: block;
+    margin: auto;
+    max-width: 250px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+button {
+    border-radius: 10px;
+    cursor: pointer;
+    width: 150px;
+    height: 35px;
+    padding: 5px;
+    display: block;
+    margin: 20px auto;
+    background-color: var(--button-color);
+    border: none;
+    color: var(--background-light);
+}
+
+.footer-container {
+
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    color: var(--background-light);
+    background-color: var(--primary-color);
+    padding: 10px;
+    height: 60px;
+}
+
+li {
+    margin: 10px;
+    padding: 5px;
+    display: inline;
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--background-light);
+}
